@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .section{
+    background-image: url(./universo.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-size: 110% 100%;
+    background-position: center;
+}
+
+
+.img{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    top: 40%;
+
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 25%;
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: yellow;
+    letter-spacing: 1px;
+}
+
+.link{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 35%;
+    padding-right: 20px;
+
+
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    color: white;
+    letter-spacing: 3px;
+
+}
